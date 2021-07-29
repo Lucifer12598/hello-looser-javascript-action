@@ -8,7 +8,21 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+yarn.lock:
 
+a@9.9.9
+
+  version "9.9.9"
+  dependencies:
+    c "^1.0.0"
+
+b@8.8.8
+  version "8.8.8"
+  dependencies:
+    c "^1.0.0"
+
+c@^1.0.0
+  version "1.0.5"
 jobs:
   build:
 
